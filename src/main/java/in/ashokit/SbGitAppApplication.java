@@ -11,6 +11,7 @@ public class SbGitAppApplication {
 		ConfigurableApplicationContext run = SpringApplication.run(SbGitAppApplication.class, args);
 		//HIS 134 changes
 		run.close();
+              int a =12;
 	}
 
 }
