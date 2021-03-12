@@ -6,7 +6,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class SbGitAppApplication {
+
      private Map<String,Object> cache=new HashMap<String,Object>();
+
+
+   private static final String Rest_ url="https://www.equifax.com";
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(SbGitAppApplication.class, args);
